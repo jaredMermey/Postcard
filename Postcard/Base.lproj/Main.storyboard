@@ -43,7 +43,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="200" height="86"/>
+                                    <rect key="frame" x="16" y="72" width="200" height="45"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCT-i6-XFu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="135" width="200" height="21"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMB-UB-Cqi">
@@ -67,6 +75,7 @@
                                 <exclude reference="on3-Vd-mHh"/>
                                 <exclude reference="irL-ON-4A5"/>
                                 <exclude reference="tsD-BJ-j1s"/>
+                                <exclude reference="pCT-i6-XFu"/>
                                 <exclude reference="hMB-UB-Cqi"/>
                             </mask>
                         </variation>
@@ -76,6 +85,7 @@
                                 <include reference="on3-Vd-mHh"/>
                                 <include reference="irL-ON-4A5"/>
                                 <include reference="tsD-BJ-j1s"/>
+                                <include reference="pCT-i6-XFu"/>
                                 <include reference="hMB-UB-Cqi"/>
                             </mask>
                         </variation>
@@ -87,6 +97,7 @@
                         <outlet property="enterNameTextField" destination="on3-Vd-mHh" id="Ftu-ve-j8b"/>
                         <outlet property="mailButton" destination="hMB-UB-Cqi" id="YLC-dh-c47"/>
                         <outlet property="messageLabel" destination="tsD-BJ-j1s" id="Mqf-5z-izh"/>
+                        <outlet property="nameLabel" destination="pCT-i6-XFu" id="DNc-nD-Mnh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
